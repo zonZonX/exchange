@@ -1,0 +1,129 @@
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Lucida Grande, Verdana, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    max-width: 700px;
+    min-width: 500px;
+    margin: auto;
+    padding: 24px 0;
+}
+
+h1 {
+    font-size: 2.4em;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color:seagreen;
+}
+
+#infoArea,
+#additionalInfoArea,
+#guestInfoArea{
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1.4em;
+    margin: 12px 12px 12px 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+}
+
+#statusArea {
+    font-family: monospace;
+    font-size: 1.4em;
+    color: chocolate;
+    margin: 14px 12px 12px 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+td.empty {
+    cursor: default;
+}
+
+table {
+    table-layout: fixed;
+    width: 600px;
+    height: 600px;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+button {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1.4em;
+    margin: 12px 0;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #535353;
+    border-radius: 4px;
+    width: auto;
+    text-align: center;
+}
+
+.btn-highlight:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+    color: ivory;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+
+#board {
+    font-size: 1.2em;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 12px 1px rgba(50, 50, 50, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@keyframes background-fade {
+    0% {
+        background-color: lightcoral;
+    }
+    100% {
+        background-color: white;
+    }
+}

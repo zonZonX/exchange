@@ -1,0 +1,17 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "jrs",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
